@@ -10,5 +10,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    // eslint-disable-next-line node/global-require, @typescript-eslint/no-require-imports -- exception for configuration files.
+    require("@tailwindcss/typography"),
+  ],
 };
