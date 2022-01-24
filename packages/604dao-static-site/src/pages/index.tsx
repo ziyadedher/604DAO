@@ -15,7 +15,7 @@ const Index: React.FunctionComponent = () => (
       />
     </Head>
     <main className="flex justify-center items-center min-h-screen bg-gray-50">
-      <div className="container flex flex-col gap-16 items-center max-w-3xl text-gray-700">
+      <div className="container flex flex-col gap-16 items-center p-8 max-w-3xl text-gray-700">
         <div className="flex flex-col gap-2 items-center self-center">
           <div className="flex flex-row gap-4 items-center">
             <span className="w-16">
@@ -24,11 +24,13 @@ const Index: React.FunctionComponent = () => (
             <h1 className="text-5xl font-bold ">604 DAO</h1>
           </div>
           <div className="flex flex-col items-center">
-            <h2 className="italic">Local community governed collectively.</h2>
+            <h2 className="italic text-center">
+              Local community governed collectively.
+            </h2>
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-8 text-justify">
+        <div className="grid grid-cols-1 gap-8 text-justify sm:grid-cols-2">
           <div className="flex flex-col">
             <h2 className="text-2xl font-bold">What is 604 DAO?</h2>
             <p className="">
