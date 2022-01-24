@@ -16,4 +16,7 @@
 .env.production.local
 
 # vercel
-.vercel
+/.vercel
+
+# next.js public folder, this isn't used for prod, only local
+/public/
