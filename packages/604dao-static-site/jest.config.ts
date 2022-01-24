@@ -7,7 +7,11 @@ const CONFIG: Config.InitialOptions = {
   clearMocks: true,
   collectCoverage: true,
   collectCoverageFrom: ["src/**/*.{ts,tsx}"],
-  coveragePathIgnorePatterns: ["/node_modules/", "src/pages"],
+  coveragePathIgnorePatterns: [
+    "/node_modules/",
+    "src/pages",
+    "src/components/icons",
+  ],
   coverageProvider: "v8",
   // CoverageThreshold: undefined,
 
