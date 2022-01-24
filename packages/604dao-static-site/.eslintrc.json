@@ -1,0 +1,3 @@
+{
+  "extends": ["../../.config/.eslintrc.json", "plugin:storybook/recommended"]
+}

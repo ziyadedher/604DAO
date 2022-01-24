@@ -1,0 +1,8 @@
+{
+  "eslint.format.enable": true,
+  "eslint.workingDirectories": ["packages/604dao-static-site"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "jest.jestCommandLine": "yarn workspaces foreach run test"
+}

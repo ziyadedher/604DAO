@@ -1,0 +1,14 @@
+name: ESLint
+
+on: push
+
+jobs:
+  static-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn workspace @604dao/static-site install
+      - name: Run ESLint
+        run: yarn workspace @604dao/static-site lint
