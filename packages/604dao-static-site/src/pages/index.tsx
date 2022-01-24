@@ -8,7 +8,11 @@ import TextLink from "../components/links/text_link";
 const Index: React.FunctionComponent = () => (
   <>
     <Head>
-      <title>604 DAO</title>
+      <title>604 DAO | Local community governed collectively.</title>
+      <meta
+        name="description"
+        content="604 DAO is an experiment in decentralized digital organization of a local community in Vancouver, Canada."
+      />
     </Head>
     <main className="flex justify-center items-center min-h-screen bg-gray-50">
       <div className="container flex flex-col gap-16 items-center max-w-3xl text-gray-700">
