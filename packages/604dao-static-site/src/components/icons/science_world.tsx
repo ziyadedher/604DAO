@@ -10,6 +10,7 @@ const ScienceWorld: React.FunctionComponent<
     xmlnsXlink="http://www.w3.org/1999/xlink"
     version="1.1"
     viewBox="100 100 500 350"
+    fill="currentColor"
   >
     <defs>
       <symbol id="t" overflow="visible">
