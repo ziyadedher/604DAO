@@ -64,12 +64,16 @@ const Index: React.FunctionComponent = () => (
             Want to keep up with 604 DAO developments?
           </h3>
           <div className="flex flex-row gap-4 self-center">
-            <IconLink href="https://twitter.com" label="twitter">
-              <TwitterLogo size={32} weight="regular" />
-            </IconLink>
-            <IconLink href="https://discord.com" label="discord">
-              <DiscordLogo size={32} weight="regular" />
-            </IconLink>
+            <span className="text-[#1DA1F2] opacity-50 hover:opacity-100 transition-all">
+              <IconLink href="https://twitter.com" label="twitter">
+                <TwitterLogo size={32} weight="duotone" />
+              </IconLink>
+            </span>
+            <span className="text-[#5865F2] opacity-50 hover:opacity-100 transition-all">
+              <IconLink href="https://discord.com" label="discord">
+                <DiscordLogo size={32} weight="duotone" />
+              </IconLink>
+            </span>
           </div>
         </div>
       </div>
