@@ -9,7 +9,7 @@ import IconLink from "../../components/links/icon_link";
 
 import HomepageAbout from "./homepage_about";
 import HomepageHero from "./homepage_hero";
-import HomepageImpact from "./homepage_impact";
+import HomepageInitiatives from "./homepage_initiatives";
 import HomepagePrinciples from "./homepage_principles";
 
 const Homepage: React.FunctionComponent = () => (
@@ -18,7 +18,7 @@ const Homepage: React.FunctionComponent = () => (
       <HomepageHero />
       <HomepageAbout />
       <HomepagePrinciples />
-      <HomepageImpact />
+      <HomepageInitiatives />
 
       <div className="flex flex-col gap-4 self-center">
         <h3 className="text-sm">Want to keep up with 604 DAO developments?</h3>
