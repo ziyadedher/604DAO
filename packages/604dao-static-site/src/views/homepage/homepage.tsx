@@ -13,7 +13,7 @@ import HomepageImpact from "./homepage_impact";
 import HomepagePrinciples from "./homepage_principles";
 
 const Homepage: React.FunctionComponent = () => (
-  <main className="flex justify-center items-center p-16">
+  <main className="flex justify-center items-center p-4 md:p-16">
     <div className="flex flex-col gap-16 items-center text-gray-700 md:gap-32">
       <HomepageHero />
       <HomepageAbout />

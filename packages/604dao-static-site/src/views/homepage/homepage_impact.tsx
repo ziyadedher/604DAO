@@ -23,7 +23,7 @@ const HomepageInitiativesEntry: React.FunctionComponent<
   HomepageInitiativesEntryProps
   // eslint-disable-next-line @typescript-eslint/naming-convention -- passing a component.
 > = ({ title, icon: Icon, children }) => (
-  <div className="flex relative flex-col items-center p-8 w-full bg-white rounded-lg border-b-4 border-gray-200 shadow-lg md:w-96">
+  <div className="flex relative flex-col items-center p-8 w-full bg-white rounded-lg border-b-4 border-gray-200 shadow-lg sm:w-96">
     <div className="absolute -top-8 items-center p-3 text-white bg-gradient-to-br from-sky-600 to-green-600 rounded-md shadow-md">
       <Icon size={32} weight="regular" />
     </div>
@@ -43,28 +43,27 @@ const HomepageInitiativess: React.FunctionComponent = () => (
       <p>
         The opportunities for impact are endless in an organization completely
         governed by it&apos;s members. These are some examples of initiatives
-        that could be voted on by the organization.
+        that members of the organization could create proposals to back.
       </p>
     </div>
 
-    <div className="flex flex-row flex-wrap gap-16 justify-center mt-16">
+    <div className="flex flex-row flex-wrap gap-16 justify-center mt-16 text-justify">
       <HomepageInitiativesEntry title="Community Improvement" icon={House}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim aut
-        architecto repellendus rerum similique necessitatibus consectetur
-        pariatur repudiandae, voluptates earum dolor excepturi repellat
-        voluptatum, omnis itaque praesentium sed facilis.
+        Being owned by the community, 604 DAO can commit itself to giving back
+        to the community. This could be program funding, neighborhood artwork,
+        event organization, community outreach, or something else.
       </HomepageInitiativesEntry>
       <HomepageInitiativesEntry title="Exclusive Access" icon={Key}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim aut
-        architecto repellendus rerum similique necessitatibus consectetur
-        pariatur repudiandae, voluptates earum dolor excepturi repellat
-        voluptatum, omnis itaque praesentium sed facilis.
+        604 DAO members are part of an exclusive and very impactful
+        organization. 604 DAO could come to agreements with other organizations,
+        communities, or individuals to build a portfolio of access to external
+        releases and events.
       </HomepageInitiativesEntry>
       <HomepageInitiativesEntry title="Joint Investments" icon={CurrencyEth}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim aut
-        architecto repellendus rerum similique necessitatibus consectetur
-        pariatur repudiandae, voluptates earum dolor excepturi repellat
-        voluptatum, omnis itaque praesentium sed facilis.
+        The Treasury is a very powerful asset that can be deployed into any
+        number of investments. 604 DAO members could agree to invest in other
+        organizations, projects, or pools to grow the value of The Treasury and
+        provide collective value.
       </HomepageInitiativesEntry>
       <HomepageInitiativesEntry title="Charitable Donations" icon={Heart}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim aut
@@ -84,7 +83,6 @@ const HomepageInitiativess: React.FunctionComponent = () => (
         pariatur repudiandae, voluptates earum dolor excepturi repellat
         voluptatum, omnis itaque praesentium sed facilis.
       </HomepageInitiativesEntry>
-
       <HomepageInitiativesEntry title="Organized Events" icon={Confetti}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim aut
         architecto repellendus rerum similique necessitatibus consectetur
