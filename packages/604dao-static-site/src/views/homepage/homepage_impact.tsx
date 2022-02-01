@@ -47,7 +47,7 @@ const HomepageInitiativess: React.FunctionComponent = () => (
       </p>
     </div>
 
-    <div className="flex flex-row flex-wrap gap-16 justify-center mt-16 text-justify">
+    <div className="grid grid-cols-1 gap-16 justify-center mt-16 text-justify lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
       <HomepageInitiativesEntry title="Community Improvement" icon={House}>
         Being owned by the community, 604 DAO can commit itself to giving back
         to the community. This could be program funding, neighborhood artwork,
@@ -66,34 +66,32 @@ const HomepageInitiativess: React.FunctionComponent = () => (
         provide collective value.
       </HomepageInitiativesEntry>
       <HomepageInitiativesEntry title="Charitable Donations" icon={Heart}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim aut
-        architecto repellendus rerum similique necessitatibus consectetur
-        pariatur repudiandae, voluptates earum dolor excepturi repellat
-        voluptatum, omnis itaque praesentium sed facilis.
+        604 DAO members could donate some The Treasury funds to charity,
+        empowering the local community and further legitimising the role of DAOs
+        in modern governance, and reinforcing their impact on the community.
       </HomepageInitiativesEntry>
       <HomepageInitiativesEntry title="Local Government" icon={Buildings}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim aut
-        architecto repellendus rerum similique necessitatibus consectetur
-        pariatur repudiandae, voluptates earum dolor excepturi repellat
-        voluptatum, omnis itaque praesentium sed facilis.
+        604 DAO could be positioned to take part in local physical government.
+        The organization could be elected as an individual onto school boards,
+        housing boards, or other local governing bodies. The position of 604 DAO
+        would be voted on by members of the DAO.
       </HomepageInitiativesEntry>
-      <HomepageInitiativesEntry title="Business Promotions" icon={Storefront}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim aut
-        architecto repellendus rerum similique necessitatibus consectetur
-        pariatur repudiandae, voluptates earum dolor excepturi repellat
-        voluptatum, omnis itaque praesentium sed facilis.
+      <HomepageInitiativesEntry title="Business Partnerships" icon={Storefront}>
+        As 604 DAO builds its brand and membership, we can begin to partner with
+        local businesses to empower the local economy and increase the scope of
+        amenities and services members of 604 DAO can access.
       </HomepageInitiativesEntry>
-      <HomepageInitiativesEntry title="Organized Events" icon={Confetti}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim aut
-        architecto repellendus rerum similique necessitatibus consectetur
-        pariatur repudiandae, voluptates earum dolor excepturi repellat
-        voluptatum, omnis itaque praesentium sed facilis.
+      <HomepageInitiativesEntry title="Physical Spaces" icon={Confetti}>
+        As the community grows, we might want to expand our physical presence.
+        604 DAO could temporarily or permanently acquire a physical space, or
+        build a new one for its members. This space could be used to host events
+        or just as an amenity for members.
       </HomepageInitiativesEntry>
       <HomepageInitiativesEntry title="So Much More..." icon={Question}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim aut
-        architecto repellendus rerum similique necessitatibus consectetur
-        pariatur repudiandae, voluptates earum dolor excepturi repellat
-        voluptatum, omnis itaque praesentium sed facilis.
+        The great thing about 604 DAO is its governance model. Any member can
+        propose whatever initiative they would like to the DAO for voting. The
+        community gets to drive the impact of the DAO. Get creative! There is so
+        much more we can do here.
       </HomepageInitiativesEntry>
     </div>
   </div>
