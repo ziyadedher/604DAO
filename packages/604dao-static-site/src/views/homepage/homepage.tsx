@@ -11,6 +11,7 @@ import HomepageAbout from "./homepage_about";
 import HomepageHero from "./homepage_hero";
 import HomepageInitiatives from "./homepage_initiatives";
 import HomepagePrinciples from "./homepage_principles";
+import HomepageRoadmap from "./homepage_roadmap";
 
 const Homepage: React.FunctionComponent = () => (
   <main className="flex justify-center items-center p-4 md:p-16">
@@ -18,6 +19,7 @@ const Homepage: React.FunctionComponent = () => (
       <HomepageHero />
       <HomepageAbout />
       <HomepagePrinciples />
+      <HomepageRoadmap />
       <HomepageInitiatives />
 
       <div className="flex flex-col gap-4 self-center">
