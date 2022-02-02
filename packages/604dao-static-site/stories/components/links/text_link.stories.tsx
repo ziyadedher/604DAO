@@ -10,15 +10,17 @@ const META: Meta = {
 interface TextLinkStoryTemplateProps {
   readonly href: string;
   readonly isExternal: boolean;
+  readonly hasUnderline: boolean;
   readonly text: string;
 }
 
 const TextLinkStoryTemplate: Story<TextLinkStoryTemplateProps> = ({
   href,
   isExternal,
+  hasUnderline,
   text,
 }: TextLinkStoryTemplateProps) => (
-  <TextLink href={href} isExternal={isExternal}>
+  <TextLink href={href} hasUnderline={hasUnderline} isExternal={isExternal}>
     {text}
   </TextLink>
 );
@@ -28,6 +30,7 @@ TextLinkStory.storyName = "Text Link";
 TextLinkStory.args = {
   href: "https://example.org",
   isExternal: true,
+  hasUnderline: true,
   text: "example.org",
 };
 
