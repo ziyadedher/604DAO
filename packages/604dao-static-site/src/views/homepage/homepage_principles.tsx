@@ -15,12 +15,12 @@ const HomepagePrincipleEntry: React.FunctionComponent<
   // eslint-disable-next-line @typescript-eslint/naming-convention -- passing a component.
 > = ({ title, icon: Icon, children }) => (
   <div className="flex flex-col gap-16 items-center sm:flex-row">
-    <div className="flex flex-col justify-center items-center p-3 text-white bg-gradient-to-br from-sky-600 to-green-600 rounded-md">
+    <div className="flex flex-col justify-center items-center p-3 text-white bg-gradient-to-br from-sky-500 to-green-500 rounded-md shadow-lg">
       <Icon size={64} weight="regular" />
     </div>
     <div className="flex flex-col">
       <h3 className="text-2xl font-bold">{title}</h3>
-      <p>{children}</p>
+      <p className="text-justify">{children}</p>
     </div>
   </div>
 );

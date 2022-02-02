@@ -24,7 +24,7 @@ const HomepageInitiativesEntry: React.FunctionComponent<
   // eslint-disable-next-line @typescript-eslint/naming-convention -- passing a component.
 > = ({ title, icon: Icon, children }) => (
   <div className="flex relative flex-col items-center p-8 w-full bg-white rounded-lg border-b-4 border-gray-200 shadow-lg sm:w-96">
-    <div className="absolute -top-8 items-center p-3 text-white bg-gradient-to-br from-sky-600 to-green-600 rounded-md shadow-md">
+    <div className="absolute -top-8 items-center p-3 text-white bg-gradient-to-br from-sky-500 to-green-500 rounded-md shadow-md">
       <Icon size={32} weight="regular" />
     </div>
     <div className="flex flex-col gap-2 items-center">
