@@ -25,13 +25,13 @@ const Homepage: React.FunctionComponent = () => (
       <div className="flex flex-col gap-4 self-center">
         <h3 className="text-sm">Want to keep up with 604 DAO developments?</h3>
         <div className="flex flex-row gap-4 self-center">
-          <IconLink href="https://twitter.com" label="twitter">
+          <IconLink href="https://twitter.com/604dao" label="twitter">
             <TwitterLogo size={32} weight="light" />
           </IconLink>
-          <IconLink href="https://instagram.com" label="instagram">
+          <IconLink href="https://www.instagram.com/604dao" label="instagram">
             <InstagramLogo size={32} weight="light" />
           </IconLink>
-          <IconLink href="https://discord.com" label="discord">
+          <IconLink href="https://discord.gg/XrFEVjUz" label="discord">
             <DiscordLogo size={32} weight="light" />
           </IconLink>
         </div>

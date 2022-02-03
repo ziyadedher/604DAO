@@ -86,10 +86,10 @@ const HomepageRoadmap: React.FunctionComponent = () => (
         >
           <p>
             Once 604 DAO reaches a sufficient level of interest from the broad
-            community, 604 DAO will distribute a initial small number of unique
-            voting tokens to high-value involved individuals, with proceeds
-            being locked in The Treasury. These core voting members will govern
-            604 DAO alongside The Founders.
+            community, 604 DAO will distribute an initial small number of unique
+            voting tokens to core members, with proceeds being locked in The
+            Treasury. These core voting members will govern 604 DAO alongside
+            The Founders.
           </p>
           <br />
           <p>
