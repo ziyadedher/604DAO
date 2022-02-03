@@ -3,7 +3,7 @@ import React from "react";
 import { ScienceWorld } from "../../components/icons";
 
 const HomepageHero: React.FunctionComponent = () => (
-  <div id="hero" className="flex flex-col gap-2 max-w-5xl">
+  <div id="hero" className="flex flex-col gap-2 py-8 max-w-5xl">
     <div className="flex flex-row gap-4 items-center">
       <span className="w-8 md:w-16">
         <ScienceWorld />
