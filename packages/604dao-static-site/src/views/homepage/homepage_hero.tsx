@@ -12,10 +12,7 @@ const HomepageHero: React.FunctionComponent = () => (
     </div>
     <div className="flex flex-col gap-8">
       <h1 className="text-6xl font-extrabold md:text-8xl">
-        Local community{" "}
-        <span className="pb-2 text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-green-500">
-          governed collectively.
-        </span>
+        Local community <span className="pb-2">governed collectively.</span>
       </h1>
     </div>
   </div>
