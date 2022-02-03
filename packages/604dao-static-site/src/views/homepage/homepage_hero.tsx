@@ -3,7 +3,7 @@ import React from "react";
 import { ScienceWorld } from "../../components/icons";
 
 const HomepageHero: React.FunctionComponent = () => (
-  <div id="hero" className="flex flex-col gap-2 max-w-5xl">
+  <div id="hero" className="flex flex-col gap-2 py-8 max-w-5xl">
     <div className="flex flex-row gap-4 items-center">
       <span className="w-8 md:w-16">
         <ScienceWorld />
@@ -13,7 +13,8 @@ const HomepageHero: React.FunctionComponent = () => (
     <div className="flex flex-col gap-8">
       <h1 className="text-6xl font-extrabold md:text-8xl">
         Local community{" "}
-        <span className="pb-2 text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-green-500">
+        {/* https://discourse.webflow.com/t/multi-line-gradient-text-safari-ios-fix-i-e-prevent-disappearing-text/135029 */}
+        <span className="box-decoration-clone pb-2 text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-green-500">
           governed collectively.
         </span>
       </h1>

@@ -32,7 +32,7 @@ const HomepagePrinciples: React.FunctionComponent = () => (
       <HomepagePrincipleEntry title="Collective Governance" icon={Scales}>
         Every action taken by the organization must be first codified as a
         proposal and then passed by voting members of the organization. This
-        fullt-transparent mechanism that involves the entire organization is the
+        fully-transparent mechanism that involves the entire organization is the
         only way to take action.
       </HomepagePrincipleEntry>
       <HomepagePrincipleEntry title="Shared Treasury" icon={Bank}>
